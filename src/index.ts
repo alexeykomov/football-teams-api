@@ -1,3 +1,4 @@
-import { loadMatches, loadTeam, loadAllTeams } from './team';
+import {loadMatches, loadTeam, loadAllTeams} from './team';
 
-export default { loadMatches, loadTeam, loadAllTeams };
+const API = {loadMatches, loadTeam, loadAllTeams};
+export default API;
