@@ -58,7 +58,7 @@ export const loadMatches = async (teamId: number): Promise<Match[]> => {
       'X-Auth-Token': AUTH_TOKEN,
     },
   });
-  const result = (await response.json());
+  const result = await response.json();
   produceErrorIfNeeded(result);
   const validResult = result as MatchResponsePayload;
   return validResult.matches;
