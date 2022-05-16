@@ -1,2 +1,3 @@
-import os from 'os';
-export default os;
+import { loadMatches, loadTeam, loadAllTeams } from './team';
+
+export default { loadMatches, loadTeam, loadAllTeams };

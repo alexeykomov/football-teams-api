@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-package-boilerplate",
-  "version": "0.1.3",
-  "description": "TypeScript NPM Module Boilerplate",
+  "name": "test-task-football-teams-api",
+  "version": "0.1.5",
+  "description": "Test task football teams api",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,18 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
+    "url": "git@github.com:alexeykomov/football-teams-api.git"
   },
   "keywords": [
-    "boilerplate",
+    "api",
     "typescript"
   ],
-  "author": "Hebert Cisco",
+  "author": "Alex K",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
+    "url": "https://github.com/alexeykomov/football-teams-api/issues"
   },
-  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/alexeykomov/football-teams-api#readme",
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@typescript-eslint/eslint-plugin": "5.10.2",
